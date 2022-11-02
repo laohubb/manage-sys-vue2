@@ -8,4 +8,5 @@
 .app{
   height: 100%;
 }
+div{box-sizing: border-box}
 </style>
