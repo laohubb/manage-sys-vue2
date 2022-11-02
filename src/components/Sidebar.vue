@@ -101,7 +101,6 @@ export default {
   color: $color-gray;
   .text{
     font-size: 14px;
-    //border: 1px solid white;
     width: 60%;
   }
   .icon{
