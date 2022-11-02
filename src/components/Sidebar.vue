@@ -62,10 +62,12 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "~@/assets/helper.scss";
+
 .sidebar {
   background-color: #2c3138;
   height: 100%;
-  width: 20%;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -77,7 +79,7 @@ export default {
   align-items: center;
   width: 100%;
   height: 90px;
-  color: white;
+  color: $color-gray;
   font-size: 8px;
   text-align: left;
   .title{
@@ -96,7 +98,7 @@ export default {
   padding: 0 10px;
   justify-content: space-between;
   align-items: center;
-  color: white;
+  color: $color-gray;
   .text{
     font-size: 14px;
     //border: 1px solid white;

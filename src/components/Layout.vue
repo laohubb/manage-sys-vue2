@@ -1,6 +1,6 @@
 <template>
   <div class="layout">
-    <Sidebar/>
+    <Sidebar class="sidebar"/>
     <div class="container">
       <Banner/>
       <div class="content"></div>
@@ -27,9 +27,11 @@ export default {
   height: 100%;
   display: flex;
 }
-
+.sidebar{
+  width: 15%;
+}
 .container{
-  width: 80%;
+  width: 85%;
   display: flex;
   flex-direction: column;
 
