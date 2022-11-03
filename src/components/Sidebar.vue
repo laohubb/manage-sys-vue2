@@ -8,43 +8,43 @@
       <svg class="icon left" aria-hidden="true">
         <use xlink:href="#icon-zulinhetongbaobiao"></use>
       </svg>
-      <div class="text">功能功能</div>
+      <div class="text">功能功能功能A</div>
       <svg class="icon arrow" aria-hidden="true">
         <use xlink:href="#icon-jiantouyou"></use>
       </svg>
     </div>
     <div class="item">
       <svg class="icon left" aria-hidden="true">
-        <use xlink:href="#icon-zulinhetongbaobiao"></use>
+        <use xlink:href="#icon-taocanbanben"></use>
       </svg>
-      <div class="text">功能功能</div>
+      <div class="text">功能功能B</div>
       <svg class="icon arrow" aria-hidden="true">
         <use xlink:href="#icon-jiantouyou"></use>
       </svg>
     </div>
     <div class="item">
       <svg class="icon left" aria-hidden="true">
-        <use xlink:href="#icon-zulinhetongbaobiao"></use>
+        <use xlink:href="#icon-zhangdanfeiyongmingxi"></use>
       </svg>
-      <div class="text">功能功能</div>
+      <div class="text">功能功能C</div>
       <svg class="icon arrow" aria-hidden="true">
         <use xlink:href="#icon-jiantouyou"></use>
       </svg>
     </div>
     <div class="item">
       <svg class="icon left" aria-hidden="true">
-        <use xlink:href="#icon-zulinhetongbaobiao"></use>
+        <use xlink:href="#icon-cailiaotongjibaobiao"></use>
       </svg>
-      <div class="text">功能功能</div>
+      <div class="text">功能功能D</div>
       <svg class="icon arrow" aria-hidden="true">
         <use xlink:href="#icon-jiantouyou"></use>
       </svg>
     </div>
     <div class="item">
       <svg class="icon left" aria-hidden="true">
-        <use xlink:href="#icon-zulinhetongbaobiao"></use>
+        <use xlink:href="#icon-shezhi"></use>
       </svg>
-      <div class="text">功能功能</div>
+      <div class="text">功能功能E</div>
       <svg class="icon arrow" aria-hidden="true">
         <use xlink:href="#icon-jiantouyou"></use>
       </svg>
@@ -92,6 +92,7 @@ export default {
 }
 
 .item {
+  cursor: pointer;
   width: 100%;
   height: 50px;
   display: flex;
