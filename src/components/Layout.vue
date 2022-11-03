@@ -7,6 +7,8 @@
         <Crumbs/>
         <Form1/>
         <Form2/>
+        <Form3/>
+        <div class="button"><el-button type="primary" size="small">保存</el-button></div>
 
       </div>
 
@@ -22,6 +24,7 @@ import Crumbs from "@/components/Crumbs";
 
 import Form1 from "@/components/Form1";
 import Form2 from "@/components/Form2";
+import Form3 from "@/components/Form3";
 
 export default {
   name: 'Layout',
@@ -29,7 +32,7 @@ export default {
     Banner,
     Sidebar,
     Crumbs,
-    Form1,Form2
+    Form1,Form2,Form3
   },
   data() {
     return {
@@ -64,6 +67,7 @@ export default {
 .layout {
   height: 100%;
   display: flex;
+
 }
 
 .sidebar {
@@ -74,12 +78,23 @@ export default {
   width: 85%;
   display: flex;
   flex-direction: column;
+  height: 100%;
 
   .content {
+    overflow-y: scroll;
     height: 100%;
     width: 100%;
     background-color: #f5f5f5;
+    .button{
+      background-color: white;
+      width: 100%;
+      button{
+        margin:10px;
+      }
+    }
   }
+
+
 }
 
 

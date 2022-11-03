@@ -3,7 +3,7 @@
     <Slide name="产品政策" index="❷"/>
     <div class="container">
       <div class="top">
-        <el-button type="primary" size="small">添加产品</el-button>
+        <el-button type="primary" size="mini">添加产品</el-button>
         <div class="box">
           <span>购进总指标（万元）:</span>&nbsp; <span>¥152,54</span>
         </div>
@@ -92,7 +92,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 export default {
   name: 'Form2',
   data() {
@@ -129,7 +129,7 @@ export default {
 .top {
   display: flex;
   align-items: center;
-
+  margin-bottom: 10px;
   .box {
     padding: 0 20px;
 
