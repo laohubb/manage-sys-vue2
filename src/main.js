@@ -5,6 +5,8 @@ import store from './store'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import 'normalize.css'
+import Slide from "@/components/Slide";
+Vue.component('Slide', Slide)
 
 Vue.use(ElementUI);
 

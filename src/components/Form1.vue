@@ -1,7 +1,6 @@
 <template>
  <div>
-
-   <Slide name="协议主体"/>
+   <Slide name="协议主体" index="❶"/>
    <div class="form">
      <el-form size="mini" :model="form" :rules="rules" ref="ruleForm" label-width="100px" class="demo-ruleForm">
        <div class="top">
@@ -15,7 +14,7 @@
                <el-option label="区域一" value="shanghai"></el-option>
                <el-option label="区域二" value="beijing"></el-option>
              </el-select>&nbsp;
-             <el-input style="width: 60%" disabled placeholder="输入金额/数量"></el-input>
+             <el-input style="width: 60%"  placeholder="输入金额/数量"></el-input>
            </el-form-item>
            <el-form-item label="销售区域">
              <el-button>选择区域</el-button>&nbsp;
@@ -35,7 +34,7 @@
                <el-option label="区域一" value="shanghai"></el-option>
                <el-option label="区域二" value="beijing"></el-option>
              </el-select>&nbsp;
-             <el-input style="width: 60%" disabled placeholder="输入金额/数量"></el-input>
+             <el-input style="width: 60%"  placeholder="输入金额/数量"></el-input>
            </el-form-item>
            <el-form-item label="签订时间">
              <el-input v-model="form.time"></el-input>
@@ -49,7 +48,7 @@
            <el-select v-model="form.way" style="width: 100px">
              <el-option label="区域一" value="shanghai"></el-option>
              <el-option label="区域二" value="beijing"></el-option>
-           </el-select>
+           </el-select>&nbsp;
            <el-button>请选择渠道</el-button>
          </el-form-item>
          <div class="table">
@@ -109,7 +108,12 @@ export default {
   flex-direction: column;
 
   .top {
-
+    ::v-deep  .el-input--mini .el-input__inner {
+      background: #f8f8f8;
+    }
+    ::v-deep .el-select--mini  .el-input__inner {
+      background: white;
+    }
     display: flex;
 
     .left {

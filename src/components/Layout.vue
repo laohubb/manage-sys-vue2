@@ -6,6 +6,7 @@
       <div class="content">
         <Crumbs/>
         <Form1/>
+        <Form2/>
 
       </div>
 
@@ -20,6 +21,7 @@ import Banner from "@/components/Banner";
 import Crumbs from "@/components/Crumbs";
 
 import Form1 from "@/components/Form1";
+import Form2 from "@/components/Form2";
 
 export default {
   name: 'Layout',
@@ -27,7 +29,7 @@ export default {
     Banner,
     Sidebar,
     Crumbs,
-    Form1
+    Form1,Form2
   },
   data() {
     return {

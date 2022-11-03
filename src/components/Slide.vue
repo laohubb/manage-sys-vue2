@@ -4,7 +4,7 @@
       <div></div>
       <div></div>
     </div>
-    <div class="text"><span>❶</span>&nbsp;{{ name }}</div>
+    <div class="text"><span>{{ index }}</span>&nbsp;{{ name }}</div>
     <div class="dotted">
       <div></div>
       <div></div>
@@ -17,7 +17,7 @@
 <script lang="ts">
 export default {
   name: 'Slide',
-  props: ['name']
+  props: ['name','index']
 };
 </script>
 
